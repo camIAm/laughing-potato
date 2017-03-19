@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "e797b77c070f68983184116817653cc8d0451829"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "BadPracticesII/1.0.0": {
+        "dependencies": {
+          "Microsoft.Framework.DependencyInjection": "1.0.0-beta8",
+          "Autofac": "4.3.0",
+          "Autofac.Framework.DependencyInjection": "4.0.0-beta8-157"
+        },
+        "runtime": {
+          "BadPracticesII.dll": {}
+        }
+      },
+      "Autofac/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "Autofac.Framework.DependencyInjection/4.0.0-beta8-157": {
+        "dependencies": {
+          "Autofac": "4.3.0",
+          "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-beta8"
+        },
+        "runtime": {
+          "lib/dotnet/Autofac.Framework.DependencyInjection.dll": {},
+          "lib/dotnet/Autofac.dll": {}
+        }
+      },
+      "Microsoft.Framework.DependencyInjection/1.0.0-beta8": {
+        "dependencies": {
+          "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-beta8"
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.Framework.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Framework.DependencyInjection.Abstractions/1.0.0-beta8": {
+        "runtime": {
+          "lib/dnxcore50/Microsoft.Framework.DependencyInjection.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BadPracticesII/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fCrt0EBW99+q1R6iA3+JBYmtfCDYfMHzsAtaDZ8/kbq9tW+Ze5W8SrxwTHqpbPI4Cp4/0NeJDaODD+D3cOfdHQ=="
+    },
+    "Autofac.Framework.DependencyInjection/4.0.0-beta8-157": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-onkvcXyk76jNxnb9wm50spSoU4l73qsf5PTa+axZXHnpmbA6/onG67jZpUbUDfiYFx8LwnE69KYzrv3UpC4D/g=="
+    },
+    "Microsoft.Framework.DependencyInjection/1.0.0-beta8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6TmUFq/mt2l7QKoDyCuJOrDFcJ9A3ljZ/P3SBQMb+IYJ9J7XivUb47E+E9dQXhIjs5FpFHUGAE5Mxj2oKpxkfA=="
+    },
+    "Microsoft.Framework.DependencyInjection.Abstractions/1.0.0-beta8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7WL9hy+7bYDyBtIrrW5tw57dChBcizjSyuD0p5pVkay+gSseLqvAk72a4KldMmRgH//7t74d/YVrTvLhw83b7w=="
+    }
+  }
+}
